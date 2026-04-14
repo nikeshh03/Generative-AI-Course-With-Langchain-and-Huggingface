@@ -6,3 +6,4 @@ matplotlib
 seaborn
 flask
 memory_profiler
+sklearn
