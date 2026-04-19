@@ -10,6 +10,7 @@ model = ChatOpenAI(
                 base_url = 'https://openrouter.ai/api/v1'
 )
 
+
 prompt = PromptTemplate(
     template="Generate 5 interesting facts about {topic}",
     input_variables=['topic']
